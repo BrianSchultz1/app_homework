@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Minha Segunda Aplicação</string>
+    <string name="button1_txt">Configure</string>
+    <string name="ButtonSobre_txt">Sobre</string>
+    <string name="ButtonSair_txt">Sair</string>
+    <string name="TextViewSobre_txt">Um texto com alguma coisa sobre esta aplicação.</string>
+    <string name="titleSobreActivity_txt">Sobre</string>
+    <string name="titleConfigureActivity_txt">Configurações</string>
+    <string name="RadioButtonMasculino_txt">Masculino</string>
+    <string name="RadioButtonFeminino_txt">Feminino</string>
+    <string name="novachave">um valor</string>
+</resources>

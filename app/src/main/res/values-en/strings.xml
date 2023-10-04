@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Second Application</string>
+    <string name="button1_txt">Button 1</string>
+    <string name="ButtonSobre_txt">About</string>
+    <string name="ButtonSair_txt">Exit</string>
+    <string name="TextViewSobre_txt">A text with something about this application</string>
+    <string name="titleSobreActivity_txt">About</string>
+    <string name="titleConfigureActivity_txt">Configurations</string>
+    <string name="RadioButtonMasculino_txt">Male</string>
+    <string name="RadioButtonFeminino_txt">Female</string>
+    <string name="novachave">a value</string>
+</resources>

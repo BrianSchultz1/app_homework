@@ -3,7 +3,6 @@ package com.example.mysecondapplication;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.RadioButton;
-import android.widget.RadioGroup;
 
 import androidx.appcompat.app.AppCompatActivity;
 

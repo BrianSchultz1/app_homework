@@ -20,18 +20,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button button_profile = findViewById(R.id.button_profile);
         Button button_settings = findViewById(R.id.button_settings);
         Button button_about = findViewById(R.id.button_about);
-        Button button_exer = findViewById(R.id.button_exer);
+        Button button_exercise = findViewById(R.id.button_exer);
         Button button_history = findViewById(R.id.button_history);
 
         button_profile.setOnClickListener(this);
         button_settings.setOnClickListener(this);
         button_about.setOnClickListener(this);
-        button_exer.setOnClickListener(this);
+        button_exercise.setOnClickListener(this);
         button_history.setOnClickListener(this);
 
         sharedPrefs = getSharedPreferences("MyPreferences", Context.MODE_PRIVATE);
     }
-
 
     @Override
     public void onClick(View view) {
@@ -42,6 +41,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         if (id == R.id.button_settings) {
             Intent i = new Intent(this, SettingsActivity.class);
+            startActivity(i);
+        }
+        if (id == R.id.button_about) {
+            Intent i = new Intent(this, AboutActivity.class);
             startActivity(i);
         }
     }
